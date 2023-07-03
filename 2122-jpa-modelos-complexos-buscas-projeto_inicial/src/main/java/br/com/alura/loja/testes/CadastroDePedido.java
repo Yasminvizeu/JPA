@@ -29,6 +29,7 @@ public class CadastroDePedido {
         Pedido pedido = new Pedido(cliente);
         pedido.adicionarProdutosPedido(new ProdutosPedido(10, pedido, produto));
         pedido.adicionarProdutosPedido(new ProdutosPedido(40, pedido, produto2));
+        System.out.println("testee");
 
         Pedido pedido2 = new Pedido(cliente);
         pedido.adicionarProdutosPedido(new ProdutosPedido(10, pedido, produto3));
